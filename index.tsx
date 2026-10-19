@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import '@atlaskit/css-reset';
 
 import Example from './example';
 
-ReactDOM.render(
-  <Example />,
-  document.getElementById('root')
-);
+createRoot(document.getElementById('root')!).render(<Example />);

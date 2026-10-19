@@ -1,23 +1,28 @@
 {
   "name": "timeslot-picker",
   "version": "0.0.0",
+  "private": true,
   "description": "A simple example deployed using react-codesandboxer",
-  "main": "index.tsx",
-  "dependencies": {
-    "react": "^16.14.0",
-    "@atlaskit/button": "^16.3.0",
-    "@atlaskit/form": "^8.5.0",
-    "@atlaskit/datetime-picker": "11.1.9",
-    "@atlaskit/css-reset": "latest",
-    "styled-components": "3.2.6",
-    "react-dom": "^16.8.0",
-    "react-scripts-ts": "^2.13.0"
-  },
-  "keywords": [],
+  "type": "module",
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@atlaskit/button": "^25.5.0",
+    "@atlaskit/css-reset": "^8.4.6",
+    "@atlaskit/datetime-picker": "^19.3.2",
+    "@atlaskit/form": "^18.2.0",
+    "date-fns": "^4.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
   }
 }

@@ -11,7 +11,7 @@
     "@atlaskit/css-reset": "latest",
     "styled-components": "3.2.6",
     "react-dom": "^16.8.0",
-    "react-scripts-ts": "^2.13.0"
+    "react-scripts-ts": "^3.1.0"
   },
   "keywords": [],
   "scripts": {

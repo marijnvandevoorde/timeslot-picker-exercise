@@ -2,7 +2,7 @@
 # Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 #
 # Minor + patch updates are grouped per ecosystem into a single PR and are
-# merged automatically by .github/workflows/dependabot-auto-merge.yml.
+# merged by .github/workflows/dependabot-auto-merge.yml once CI passes.
 # Major updates get their own PR for manual review.
 version: 2
 updates:

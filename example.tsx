@@ -1,5 +1,3 @@
-import React from "react";
-
 import { parseISO } from "date-fns";
 
 import Button from "@atlaskit/button";
@@ -71,9 +69,11 @@ const DateTimePickerFormExample = () => (
           {({ fieldProps, error, meta: { valid } }) => (
             <>
               <DateTimePicker
-                timeFormat="HH:mm"
-                timeIsEditable
                 locale={"nl-BE"}
+                timePickerProps={{
+                  timeFormat: "HH:mm",
+                  timeIsEditable: true
+                }}
                 datePickerProps={{
                   disabledDateFilter: weekendFilter,
                   weekStartDay: 1

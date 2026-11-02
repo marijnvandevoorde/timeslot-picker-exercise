@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@atlaskit/button": "^25.6.0",
-    "@atlaskit/css-reset": "^8.4.6",
-    "@atlaskit/datetime-picker": "^19.4.0",
-    "@atlaskit/form": "^18.2.1",
+    "@atlaskit/button": "^25.6.1",
+    "@atlaskit/css-reset": "^8.4.8",
+    "@atlaskit/datetime-picker": "^19.4.2",
+    "@atlaskit/form": "^18.3.1",
     "date-fns": "^4.4.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"

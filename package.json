@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@atlaskit/button": "^25.6.1",
-    "@atlaskit/css-reset": "^8.4.8",
-    "@atlaskit/datetime-picker": "^19.4.2",
+    "@atlaskit/button": "^25.7.0",
+    "@atlaskit/css-reset": "^8.4.10",
+    "@atlaskit/datetime-picker": "^19.4.3",
     "@atlaskit/form": "^18.3.1",
     "date-fns": "^4.4.0",
     "react": "^19.3.1",
@@ -21,8 +21,8 @@
   "devDependencies": {
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
+    "@vitejs/plugin-react": "^6.2.1",
     "typescript": "^7.0.2",
-    "vite": "^8.3.5"
+    "vite": "^8.3.6"
   }
 }
